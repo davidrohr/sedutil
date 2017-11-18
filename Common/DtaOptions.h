@@ -98,6 +98,7 @@ typedef enum _sedutiloption {
 	objDump,
     printDefaultPassword,
     printPasswordHash,
+    prepareForS3Sleep,
 	rawCmd,
 
 } sedutiloption;
