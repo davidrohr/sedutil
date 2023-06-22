@@ -44,8 +44,6 @@ int main(int argc, char** argv) {
     if (strcmp(p.c_str(), "debug")) {
         printf("\n Access granted. Starting the system... \n");
         sync();
-        usleep(5000000); // give the user time to see results
-        reboot(RB_AUTOBOOT);
     }
     return 0;
 }
